@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="137dp"
+        android:layout_height="147dp"
+        app:srcCompat="@drawable/logo" />
+
+    <Button
+        android:id="@+id/ziyadah"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="#5F6552"
+        android:text="ZIYADAH" />
+
+    <Button
+        android:id="@+id/murajaah"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="#5F6552"
+        android:text="MURAJAAH" />
+
+    <Button
+        android:id="@+id/tilawah"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="#5F6552"
+        android:text="TILAWAH" />
+
+    <Button
+        android:id="@+id/evaluasi"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="#5F6552"
+        android:text="EVALUASI" />
+
+    <Button
+        android:id="@+id/profil"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="100dp"
+        android:backgroundTint="#5F6552"
+        android:text="PROFIL" />
+</LinearLayout>
+
