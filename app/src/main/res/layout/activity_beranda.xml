@@ -53,7 +53,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginRight="100dp"
         android:backgroundTint="#5F6552"
-        android:text="EVALUASI" />
+        android:text="buat alarm" />
 
     <Button
         android:id="@+id/profil"
