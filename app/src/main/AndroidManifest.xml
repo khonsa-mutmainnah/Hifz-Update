@@ -9,7 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Hifz">
-
+        <activity
+            android:name=".DestinationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SetAlarm"
+            android:exported="true" />
         <activity
             android:name=".ayat_tilawah"
             android:exported="true" />
@@ -44,6 +49,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <receiver android:name=".AlarmReceiver"/>
 
         <meta-data
             android:name="preloaded_fonts"

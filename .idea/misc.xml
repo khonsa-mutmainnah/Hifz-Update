@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/kulyah/semester 5/Hifz-master/app/src/main/res/layout/activity_alarm_receiver.xml" value="0.1" />
+        <entry key="..\:/kulyah/semester 5/Hifz-master/app/src/main/res/layout/activity_beranda.xml" value="0.20416666666666666" />
+        <entry key="..\:/kulyah/semester 5/Hifz-master/app/src/main/res/layout/activity_destination.xml" value="0.20416666666666666" />
+        <entry key="..\:/kulyah/semester 5/Hifz-master/app/src/main/res/layout/activity_set_alarm.xml" value="0.1" />
         <entry key="..\:/kulyah/semester 5/Hifz/app/src/main/res/drawable/ic_next.xml" value="0.2203125" />
         <entry key="..\:/kulyah/semester 5/Hifz/app/src/main/res/drawable/ic_prev.xml" value="0.2203125" />
         <entry key="..\:/kulyah/semester 5/Hifz/app/src/main/res/drawable/ic_skip_next_black_24dp.xml" value="0.2203125" />

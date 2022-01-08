@@ -13,6 +13,7 @@ public class beranda extends AppCompatActivity {
     private Button button;
     private Button btnMurajaah;
     private Button btnTilawah;
+    private Button setAlarm;
     @Override
     protected void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,6 +22,7 @@ public class beranda extends AppCompatActivity {
         button = (Button) findViewById(R.id.ziyadah);
         btnMurajaah = (Button) findViewById(R.id.murajaah);
         btnTilawah = (Button) findViewById(R.id.tilawah);
+        setAlarm = (Button) findViewById(R.id.evaluasi);
 
         button.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -42,6 +44,13 @@ public class beranda extends AppCompatActivity {
                 openSuratTilawah();
             }
         });
+
+        setAlarm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openAlarm();
+            }
+        });
     }
 
     public void openSurat(){
@@ -51,6 +60,11 @@ public class beranda extends AppCompatActivity {
 
     public void openSuratTilawah(){
         Intent intent = new Intent(beranda.this, surat.class);
+        startActivity(intent);
+    }
+
+    public void openAlarm(){
+        Intent intent = new Intent(beranda.this, SetAlarm.class);
         startActivity(intent);
     }
 }
